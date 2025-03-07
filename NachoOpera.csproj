@@ -33,6 +33,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BibliotecaMultiplicacion">
+      <HintPath>..\BibliotecaMultiplicacion\bin\Debug\BibliotecaMultiplicacion.dll</HintPath>
+    </Reference>
+    <Reference Include="BibliotecaResta">
+      <HintPath>..\BibliotecaResta\bin\Debug\BibliotecaResta.dll</HintPath>
+    </Reference>
+    <Reference Include="BibliotecaSuma">
+      <HintPath>..\BibliotecaSuma\bin\Debug\BibliotecaSuma.dll</HintPath>
+    </Reference>
+    <Reference Include="Division">
+      <HintPath>..\..\..\Downloads\Division.dll</HintPath>
+    </Reference>
+    <Reference Include="Suma">
+      <HintPath>..\..\..\Downloads\Suma.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
