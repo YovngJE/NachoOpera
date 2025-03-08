@@ -42,6 +42,9 @@
     <Reference Include="BibliotecaSuma">
       <HintPath>..\BibliotecaSuma\bin\Debug\BibliotecaSuma.dll</HintPath>
     </Reference>
+    <Reference Include="BiblliotecaDivisio">
+      <HintPath>..\BiblliotecaDivisio\bin\Debug\BiblliotecaDivisio.dll</HintPath>
+    </Reference>
     <Reference Include="Division">
       <HintPath>..\..\..\Downloads\Division.dll</HintPath>
     </Reference>

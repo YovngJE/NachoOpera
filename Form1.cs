@@ -12,13 +12,14 @@ using BibliotecaResta;
 using BibliotecaSuma;
 using Division;
 using Libreria;
-
+using BiblliotecaDivisio;
 namespace NachoOpera
 {
    
     public partial class frmPrincipal : Form
     {
         long  resultado;
+        double resultadod;
         public frmPrincipal()
         {
             InitializeComponent();
@@ -57,8 +58,8 @@ namespace NachoOpera
             }
             else
             {
-                resultado = Division.Class1.Dividir(int.Parse(txtNum1.Text), int.Parse(txtNum2.Text));
-                lblResultado.Text = resultado.ToString();
+                resultadod = BiblliotecaDivisio.Class1.Dividir(double.Parse(txtNum1.Text), double.Parse(txtNum2.Text));
+                lblResultado.Text = resultadod.ToString();
             }
             
         }
@@ -68,6 +69,8 @@ namespace NachoOpera
             txtNum1.Clear();
             txtNum2.Clear();
             lblResultado.Text = "0";
+            resultado = 0;
+            resultadod = 0;
         }
     }
 }
