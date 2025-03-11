@@ -44,52 +44,52 @@
             // lblNum1
             // 
             this.lblNum1.AutoSize = true;
-            this.lblNum1.Location = new System.Drawing.Point(117, 164);
-            this.lblNum1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblNum1.Location = new System.Drawing.Point(100, 138);
+            this.lblNum1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNum1.Name = "lblNum1";
-            this.lblNum1.Size = new System.Drawing.Size(130, 25);
+            this.lblNum1.Size = new System.Drawing.Size(106, 21);
             this.lblNum1.TabIndex = 0;
             this.lblNum1.Text = "Numero 1:";
             // 
             // lblNum2
             // 
             this.lblNum2.AutoSize = true;
-            this.lblNum2.Location = new System.Drawing.Point(117, 227);
-            this.lblNum2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblNum2.Location = new System.Drawing.Point(100, 191);
+            this.lblNum2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNum2.Name = "lblNum2";
-            this.lblNum2.Size = new System.Drawing.Size(130, 25);
+            this.lblNum2.Size = new System.Drawing.Size(106, 21);
             this.lblNum2.TabIndex = 1;
             this.lblNum2.Text = "Numero 2:";
             // 
             // txtNum1
             // 
-            this.txtNum1.BackColor = System.Drawing.Color.DarkGreen;
-            this.txtNum1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNum1.Location = new System.Drawing.Point(262, 164);
-            this.txtNum1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtNum1.BackColor = System.Drawing.Color.PowderBlue;
+            this.txtNum1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNum1.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtNum1.Location = new System.Drawing.Point(225, 138);
+            this.txtNum1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNum1.Name = "txtNum1";
-            this.txtNum1.Size = new System.Drawing.Size(172, 32);
+            this.txtNum1.Size = new System.Drawing.Size(148, 24);
             this.txtNum1.TabIndex = 2;
             // 
             // txtNum2
             // 
-            this.txtNum2.BackColor = System.Drawing.Color.DarkGreen;
-            this.txtNum2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNum2.Location = new System.Drawing.Point(262, 227);
-            this.txtNum2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtNum2.BackColor = System.Drawing.Color.PowderBlue;
+            this.txtNum2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNum2.Location = new System.Drawing.Point(225, 191);
+            this.txtNum2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNum2.Name = "txtNum2";
-            this.txtNum2.Size = new System.Drawing.Size(172, 32);
+            this.txtNum2.Size = new System.Drawing.Size(148, 24);
             this.txtNum2.TabIndex = 3;
             // 
             // btnSumar
             // 
-            this.btnSumar.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnSumar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSumar.BackColor = System.Drawing.Color.SteelBlue;
             this.btnSumar.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSumar.Location = new System.Drawing.Point(122, 452);
-            this.btnSumar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnSumar.Location = new System.Drawing.Point(105, 380);
+            this.btnSumar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSumar.Name = "btnSumar";
-            this.btnSumar.Size = new System.Drawing.Size(164, 61);
+            this.btnSumar.Size = new System.Drawing.Size(141, 51);
             this.btnSumar.TabIndex = 4;
             this.btnSumar.Text = "Sumar";
             this.btnSumar.UseVisualStyleBackColor = false;
@@ -97,13 +97,12 @@
             // 
             // btnRestar
             // 
-            this.btnRestar.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnRestar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnRestar.BackColor = System.Drawing.Color.SteelBlue;
             this.btnRestar.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRestar.Location = new System.Drawing.Point(326, 452);
-            this.btnRestar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnRestar.Location = new System.Drawing.Point(279, 380);
+            this.btnRestar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRestar.Name = "btnRestar";
-            this.btnRestar.Size = new System.Drawing.Size(149, 61);
+            this.btnRestar.Size = new System.Drawing.Size(128, 51);
             this.btnRestar.TabIndex = 5;
             this.btnRestar.Text = "Restar";
             this.btnRestar.UseVisualStyleBackColor = false;
@@ -111,13 +110,12 @@
             // 
             // btnMultiplicar
             // 
-            this.btnMultiplicar.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMultiplicar.BackColor = System.Drawing.Color.SteelBlue;
             this.btnMultiplicar.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMultiplicar.Location = new System.Drawing.Point(511, 452);
-            this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnMultiplicar.Location = new System.Drawing.Point(438, 380);
+            this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMultiplicar.Name = "btnMultiplicar";
-            this.btnMultiplicar.Size = new System.Drawing.Size(212, 61);
+            this.btnMultiplicar.Size = new System.Drawing.Size(182, 51);
             this.btnMultiplicar.TabIndex = 6;
             this.btnMultiplicar.Text = "Multiplicar";
             this.btnMultiplicar.UseVisualStyleBackColor = false;
@@ -125,13 +123,12 @@
             // 
             // btnDividir
             // 
-            this.btnDividir.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnDividir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnDividir.BackColor = System.Drawing.Color.SteelBlue;
             this.btnDividir.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDividir.Location = new System.Drawing.Point(749, 452);
-            this.btnDividir.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnDividir.Location = new System.Drawing.Point(642, 380);
+            this.btnDividir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDividir.Name = "btnDividir";
-            this.btnDividir.Size = new System.Drawing.Size(187, 61);
+            this.btnDividir.Size = new System.Drawing.Size(160, 51);
             this.btnDividir.TabIndex = 7;
             this.btnDividir.Text = "Dividir";
             this.btnDividir.UseVisualStyleBackColor = false;
@@ -140,21 +137,20 @@
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(950, 173);
-            this.lblResultado.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblResultado.Location = new System.Drawing.Point(814, 145);
+            this.lblResultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(0, 25);
+            this.lblResultado.Size = new System.Drawing.Size(0, 21);
             this.lblResultado.TabIndex = 8;
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnLimpiar.BackColor = System.Drawing.Color.SteelBlue;
             this.btnLimpiar.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiar.Location = new System.Drawing.Point(1138, 464);
-            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnLimpiar.Location = new System.Drawing.Point(975, 390);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(180, 48);
+            this.btnLimpiar.Size = new System.Drawing.Size(154, 40);
             this.btnLimpiar.TabIndex = 9;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
@@ -163,19 +159,19 @@
             // lblMensaje
             // 
             this.lblMensaje.AutoSize = true;
-            this.lblMensaje.Location = new System.Drawing.Point(950, 127);
-            this.lblMensaje.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lblMensaje.Location = new System.Drawing.Point(556, 138);
+            this.lblMensaje.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(132, 25);
+            this.lblMensaje.Size = new System.Drawing.Size(107, 21);
             this.lblMensaje.TabIndex = 10;
             this.lblMensaje.Text = "Resultado:";
             // 
             // frmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(1400, 703);
+            this.BackColor = System.Drawing.Color.FloralWhite;
+            this.ClientSize = new System.Drawing.Size(1200, 591);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.lblResultado);
@@ -187,8 +183,8 @@
             this.Controls.Add(this.txtNum1);
             this.Controls.Add(this.lblNum2);
             this.Controls.Add(this.lblNum1);
-            this.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmPrincipal";
             this.Text = "Nacho Opera";
             this.Load += new System.EventHandler(this.Form1_Load);
